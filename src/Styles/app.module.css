@@ -1,0 +1,6 @@
+.about,.skills,.stats,.project,.contact{
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    background: rgba(0,255,0,0.02);
+}
