@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.9d1a183d.css",
-    "main.js": "/static/js/main.53af00a9.js",
+    "main.js": "/static/js/main.b92c0f1f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Karan-Kotai-Resume.pdf": "/static/media/Karan-Kotai-Resume.2c71a947b3c050631911.pdf",
     "index.html": "/index.html",
     "main.9d1a183d.css.map": "/static/css/main.9d1a183d.css.map",
-    "main.53af00a9.js.map": "/static/js/main.53af00a9.js.map",
+    "main.b92c0f1f.js.map": "/static/js/main.b92c0f1f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d1a183d.css",
-    "static/js/main.53af00a9.js"
+    "static/js/main.b92c0f1f.js"
   ]
 }
