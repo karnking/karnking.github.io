@@ -4,27 +4,30 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Resume from "../resume/Karan-Kotai-Resume.pdf";
-import { Text } from "@chakra-ui/react";
+import { Avatar, Image, Text } from "@chakra-ui/react";
+import { Button } from "react-scroll";
 export default function About() {
   React.useEffect(() => {
     AOS.init();
   }, []);
-
   return (
     <div id="about" className="about section">
-      <Text textAlign={'center'} fontSize={'4xl'}>About</Text>
-      <div id="about" className={style.about}>
-        <div className={style.image}>
+      <div className={style.about}>
           {/* <BookType /> */}
-          <img
+          <span>
+          <Image
             src="https://avatars.githubusercontent.com/u/68837552?v=4"
             alt="profile_img"
-            className="home-img"
+            // boxSize={{xs:'70px',sm:'100px',md:'250',lg:'350px'}}
+            borderRadius='full'
+            w={'350px'}
+            align={'center'}
+            margin={'auto'}
+            // margin={{xs:'auto',md:'unset'}}
           />
-        </div>
+          </span>
         <div className={style.name}>
-          <h1>
+          <h1 id="intro">
             Hello <span id="user-detail-name"><Text>I'm Karan Kotai</Text></span>
           </h1>
 
@@ -41,32 +44,34 @@ export default function About() {
               </div>
             </div>
           </div>
-            {/* <h3 id="">About</h3> */}
           <p id="user-detail-intro">
-          An aspiring and self motivated full stack web developer with passion for coding and having 1200+ hours of coding experience. I believe in team work makes dream work and working every day to better interpersonal skills. Looking for a challenging SDE role in a growth-oriented organisation.
+            A passionate Full Stack Web Developer with strong
+            problem-solving abilities, proficient in React Js, Mongo DB,
+            Express Js Next Js, Typescript and Chakra Ui CSS keen to learn
+            new technologies.
+          </p>
+          <p id="user-detail-intro">
+            Looking forward to starting career in a fast growing startup driven by technology. I am committed to delivering excellence and contributing to the continued growth and success of innovative web applications.
           </p>
 
-          <div style={{"display":"flex", flexWrap:"nowrap", justifyContent:"center", alignItems:"center"}}>
-            {" "}
-          <a
-            onClick={() => {
-              window.open(
-                "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view?usp=sharing",
-                "blank"
-                );
-              }}
-              id="resume-button-2"
-              href={Resume}
-              download="Karan-Kotai-Resume"
-              className={style.ResumeBtn}
-              >
-            <span></span>
-            <span></span>
-            <span></span> 
-            <span></span>
-            Resume
-          </a>
-              {/* </button> */}
+          <div style={{ "display": "flex", flexWrap: "nowrap", justifyContent: "center", alignItems: "center", margin:'10px' }}>
+                <button
+                    className={style.ResumeBtn}
+                    id="resume-button-2"
+                    onClick={()=>{
+                      window.open(
+                        "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view?usp=sharing",
+                        "blank"
+                      );
+                    }}
+                  >
+                    <a href="./images/Karan-Kotai-Resume.pdf" download="Karan-Kotai-Resume" id="resume-link-2" className="nav-link resume" >
+
+                      Resume
+
+                    </a>
+                  </button>
+            {/* </button> */}
             {/*  */}
             <a
               href="https://github.com/karnking"

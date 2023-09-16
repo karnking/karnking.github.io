@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   const { colorMode } = useColorMode();
-
-  console.log(colorMode)
+  const reset = (e) =>{
+    e.target.form.reset()
+  }
   return (
     <div id="contact">
 
@@ -75,9 +76,9 @@ const Contact = () => {
               <div className="column">
                 <div className="contact-form">
                   <form
-                    action="https://getform.io/f/d72aeccd-342e-437d-ba5e-ed371e37cc83"
+                    action="https://getform.io/f/35fb6db6-8957-4e89-a32d-572d1bc07ec5"
                     method="POST">
-                    <input type="text" name="name" placeholder="Name" style={colorMode==='dark'?{color:'white'}:{color:'black'}}/>
+                    <input type="text" name="name"  placeholder="Name" style={colorMode==='dark'?{color:'white'}:{color:'black'}}/>
                     <input type="email" name="email" placeholder="Email" style={colorMode==='dark'?{color:'white'}:{color:'black'}} />
                     <textarea
                       placeholder="Message"
@@ -88,7 +89,7 @@ const Contact = () => {
                       type="submit"
                       className="site-btn"
                       style={colorMode==='dark'?{color:'white'}:{color:'black'}}
-                      formTarget="_blank">
+                      formTarget="_blank" onClick={reset}>
                       {" "}
                       Send Message 
                     </button>

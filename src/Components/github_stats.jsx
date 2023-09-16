@@ -5,8 +5,6 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useColorMode } from "@chakra-ui/react";
-import { useEffect } from "react";
-import { useState } from "react";
 
 export default function GithubStats() {
   React.useEffect(() => {
@@ -18,13 +16,13 @@ export default function GithubStats() {
     <>
       {" "}
       <div className={style.outer_box}>
- 
-          <h1 className={style.main_heading}>My Statistics</h1>
-    
+
+        <h1 className={style.main_heading}>My Statistics</h1>
+
 
         <div className={style.flex_box}>
-          <div data-aos="fade-right" >
-            <img  
+          <div data-aos="zoom-in" >
+            <img
               src={
                 colorMode === "dark"
                   ? "https://github-readme-streak-stats.herokuapp.com?user=karnking&theme=dark"
@@ -32,12 +30,12 @@ export default function GithubStats() {
               }
               alt="stats"
               id="github-streak-stats"
-              
+
             />
           </div>
-          <div data-aos="fade-left">
-            <img 
-            id="github-stats-card"
+          <div data-aos="zoom-in">
+            <img
+              id="github-stats-card"
               src={
                 colorMode === "dark"
                   ? "https://github-readme-stats.vercel.app/api?username=karnking&theme=dark"
@@ -47,40 +45,51 @@ export default function GithubStats() {
             />
           </div>
         </div>
+        <div className={style.flex_box}>
+        <div data-aos='zoom-out'>
+          <img
+            src={
+              colorMode === "dark"
+                ? "https://github-readme-stats.vercel.app/api/top-langs/?username=karnking&theme=dark"
+                : "https://github-readme-stats.vercel.app/api/top-langs/?username=karnking"
+            }
+            alt="Top Lang"
+            id="github-top-langs"
+          />
+        </div>
+        <div data-aos='zoom-out'>
+        <img
+          src={
+            colorMode === "dark"
+              ? "https://github-readme-stats.vercel.app/api/top-langs/?username=karnking&theme=dark&layout=donut"
+              : "https://github-readme-stats.vercel.app/api/top-langs/?username=karnking&layout=donut"
+          }
+          alt="Top Lang"
+          id="github-top-langs"
+        />
+        </div>
       </div>
-      
-      <div data-aos="fade-left"  className={style.flex_box}>
-            <img
-              src={
-                colorMode === "dark"
-                  ? "https://github-readme-stats.vercel.app/api/top-langs/?username=karnking&theme=dark"
-                  : "https://github-readme-stats.vercel.app/api/top-langs/?username=karnking"
-              }
-              alt="Top Lang"
-              id="github-top-langs"
-            />
-    </div>
-      
+      </div>
 
       <div className={style.outer_box}>
-      
-          <h1 className={style.main_heading}>My Github Calender</h1>
-      
+
+        <h1 className={style.main_heading}>My Github Calender</h1>
+
         <div data-aos="fade-up" className={style.Calendar}>
           <GitHubCalendar year='2023' username="karnking" />
         </div>
       </div>
       <div className={style.outer_box}>
-       
-          <h1 className={style.main_heading}>Github Contribution Graph</h1>
-    
+
+        <h1 className={style.main_heading}>Github Contribution Graph</h1>
+
         <div className={style.graph}>
-       
-            <img
-              src="https://github-readme-activity-graph.vercel.app/graph?username=karnking&theme=react-dark"
-              alt=""
-            />
-      
+
+          <img
+            src="https://github-readme-activity-graph.vercel.app/graph?username=karnking&theme=react-dark"
+            alt=""
+          />
+
         </div>
       </div>
     </>

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div id="home">
       <Navbar />
-      <Box w="full" margin={"auto"}>
+      <Box w="100%">
         <About />
         <Skills />
         <GithubStats />

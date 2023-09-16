@@ -27,7 +27,6 @@ import { Link } from "react-scroll";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
 import Typewriter from "typewriter-effect";
-import Resume from "../../resume/Karan-Kotai-Resume.pdf";
 
 // const Links = ["About", "Skills", "Projects", "Contact", "Resume"];
 
@@ -77,30 +76,38 @@ function SideDrawerNavbar() {
             </DrawerHeader>
           </Flex>
           <DrawerBody>
-            <Box pb={4}>
+            <Box pb={4} id="nav-menu">
               <Stack as={"nav"} spacing={4}>
                 {Links.map((link, index) => (
                   <div key={index}>
                     {link.name === "Resume" ? (
-                      <a 
-                      onClick={() => {
+                      // <NavItem
+                      // key={link.name}
+                      // icon={link.icon}
+                      // onClose={onClose}
+                      
+                        
+                        // >
+                      <a
+                        className="nav-link resume"
+                        onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view?usp=sharing",
+                          "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view",
                           "blank"
-                        );
-                      }}
-                      className="nav-link resume"
-                      id="resume-button-1"
-                      href={Resume}
-                      download="Karan-Kotai-Resume"
-                      px={2}
-                      py={1}
-                      rounded={"md"}
-                      _hover={{
-                        textDecoration: "none",
-                      }}>
+                          );
+                        }}
+                        id="resume-button-1"
+                        href="./images/Karan-Kotai-Resume.pdf"
+                        download="Karan-Kotai-Resume"
+                        px={2}
+                        py={1}
+                        rounded={"md"}
+                        _hover={{
+                          textDecoration: "none",
+                        }}>
                       Resume
                     </a>
+                    // </NavItem>
                     ) : (
                       <NavItem
                         key={link.name}

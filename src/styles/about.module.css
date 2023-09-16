@@ -2,7 +2,6 @@
   border: 0px solid red;
   display: flex;
   padding-top: 5%;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +9,7 @@
   background-image: linear-gradient(
     -45deg,
     rgb(69, 162, 255) 0%,
-    rgb(1, 160, 160)
+    rgb(160, 80, 1)
     );
   animation: AnimateBG 20s ease infinite;
 }
@@ -34,18 +33,13 @@
 .about > div:nth-child(2) {
   width: 70%;
 }
-.image{
 
-}
-.image > img {
-  width: 65%;
-  margin: auto;
-  height: 90%;
-  /* object-fit: contain; */
-  border-radius: 50%;
+.about>span{
+  width: 50%;
 }
 
 .name {
+  width: 40%;
   border: 0px solid red;
   display: block;
 }
@@ -88,7 +82,9 @@
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: #03e9f4;
+  color: #fff;
+  background-color: black;
+  border-radius: 5px;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -99,9 +95,9 @@
   margin-bottom: 20px;
   margin-right: 10px;
 }
-#resume-button-2{
+/* #resume-button-2{
   margin-top: 50px;
-}
+} */
 
 .ResumeBtn:hover {
   background: #000505;
@@ -121,7 +117,7 @@
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
+  background: linear-gradient(90deg, transparent, #fff);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -135,9 +131,9 @@
   text-transform: uppercase;
   overflow: hidden;
   transition: 0.5s;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   letter-spacing: 4px;
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
 }
 .githubBtn>*{
   transform: scale(1.4);
@@ -167,7 +163,7 @@
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
+  background: linear-gradient(180deg, transparent, #fff);
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
@@ -187,7 +183,7 @@
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
+  background: linear-gradient(270deg, transparent, #fff);
   animation: btn-anim3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -207,7 +203,7 @@
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
+  background: linear-gradient(360deg, transparent, #fff);
   animation: btn-anim4 1s linear infinite;
   animation-delay: 0.75s;
 }
@@ -305,7 +301,7 @@
     justify-content: center;
     height: auto;
     width: 100%;
-    padding-top: 70px;
+    padding: 70px 15px 0 25px;
     gap: 5px;
   }
   .about > div:nth-child(1) {
@@ -326,11 +322,7 @@
     width: 100%;
   }
 
-  .image > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+
 
   .name > h1:nth-child(1) {
     padding-top: 0px;
@@ -347,8 +339,8 @@
     color: white;
     margin-bottom: -10px;
   }
-  .ResumeBtn {
-    margin-bottom: 0px;
+  .flipBox{
+    margin-left: 10px;
   }
   .flip {
     /* border: 2px solid teal; */
@@ -356,6 +348,9 @@
     overflow: hidden;
     font-size: 30px;
     font-weight: 700;
+  }
+  .about>span{
+    width: 100%;
   }
 }
 
@@ -376,39 +371,40 @@
     padding-top: 0px;
     margin: auto;
   }
+  .flipBox{
+    margin-left: 25px;
+  }
   .about > div:nth-child(1) {
     /* border: 1px solid green; */
     width: 100%;
     margin-top: 10px;
   }
-
+  
   .about > div:nth-child(2) {
     /* border: 1px solid green; */
     width: 100%;
     /* display: flex; */
   }
-
+  
   .about > div:nth-child(1) {
     width: 100%;
     height: 350px; /* set the height of the box */
     overflow: hidden; /* hide any overflow */
   }
-  .image > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
   .name > h1:nth-child(1) {
     padding-top: 0px;
   }
-
+  
   .name > h1:nth-child(1),
   .name > h1:nth-child(2) {
-    font-size: 20px;
+    font-size: 30px;
     margin: 0px;
-    margin-left: 10px;
+    margin-left: 35px;
   }
-
+  #id{
+    margin-left: 50px !important;
+  }
+  
   .name > h1:nth-child(3) {
     margin-left: 10px;
     font-size: 20px;
@@ -429,5 +425,9 @@
     overflow: hidden;
     font-size: 30px;
     font-weight: 700;
+  }
+  .about>span{
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

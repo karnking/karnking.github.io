@@ -10,14 +10,13 @@ import {
 import { Link } from "react-scroll";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import SideDrawerNavbar from "./SideDrawerNavbar";
-import Resume from "../../resume/Karan-Kotai-Resume.pdf";
-
 // const Links = ["Home","About", "Skills", "Projects", "Contact", "Resume",];
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
+  
   return (
-    <Box w="100%" overflowX="hidden" id="nav-menu">
+    <Box w="100%" overflowX="hidden" id="nav-menu" style={{minHeight: '0.5em'}}>
       <Box
         boxShadow={
           "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,rgba(0, 0, 0, 0.3) 0px 8px 16px -8px"
@@ -55,7 +54,11 @@ export default function Navbar() {
                 <Text
                   cursor={"pointer"}
                   _hover={{
-                    color: "red",
+                    color: "white",
+                    bg: 'black',
+                    padding: '0.3em',
+                    transition: '0.5s',
+                    borderRadius: '10px'
                   }}
                   fontSize="18px"
                   fontWeight="semibold"
@@ -81,7 +84,11 @@ export default function Navbar() {
                 <Text
                   cursor={"pointer"}
                   _hover={{
-                    color: "red",
+                    color: "white",
+                    bg: 'black',
+                    padding: '0.3em',
+                    transition: '0.5s',
+                    borderRadius: '10px'
                   }}
                   fontSize="18px"
                   fontWeight="semibold"
@@ -107,7 +114,11 @@ export default function Navbar() {
                 <Text
                   cursor={"pointer"}
                   _hover={{
-                    color: "red",
+                    color: "white",
+                    bg: 'black',
+                    padding: '0.3em',
+                    transition: '0.5s',
+                    borderRadius: '10px'
                   }}
                   fontSize="18px"
                   fontWeight="semibold"
@@ -133,7 +144,11 @@ export default function Navbar() {
                 <Text
                   cursor={"pointer"}
                   _hover={{
-                    color: "red",
+                    color: "white",
+                    bg: 'black',
+                    padding: '0.3em',
+                    transition: '0.5s',
+                    borderRadius: '10px'
                   }}
                   fontSize="18px"
                   fontWeight="semibold"
@@ -161,7 +176,11 @@ export default function Navbar() {
                   cursor={"pointer"}
                  al={"center"}
                   _hover={{
-                    color: "red",
+                    color: "white",
+                    bg: 'black',
+                    padding: '0.3em',
+                    transition: '0.5s',
+                    borderRadius: '10px'
                   }}
                   fontSize="18px"
                   fontWeight="semibold"
@@ -175,28 +194,31 @@ export default function Navbar() {
 // Resume Link */}
               <Text
                 _hover={{
-                  color: "red",
+                  color: "white",
+                  bg: 'black',
+                  padding: '0.3em',
+                  transition: '0.5s',
+                  borderRadius: '10px'
+                }}
+                onClick={()=>{
+                  window.open(
+                    "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view?usp=sharing",
+                    "blank"
+                  );
                 }}
                 fontSize="18px"
                 fontWeight="semibold"
                 className="nav-link resume"
               >
                 <a
-                  onClick={() => {
-                    window.open(
-                      "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view?usp=sharing",
-                      "blank"
-                    );
-                  }}
                   className="nav-link resume"
                   id="resume-button-1"
-                  href={Resume}
-                  download="Karan-Kotai-Resume"
+                  href="./images/Karan-Kotai-Resume.pdf"
+                  download='Karan-Kotai-Resume'
                   px={2}
                   py={1}
                   rounded={"md"}
                   _hover={{
-                    textDecoration: "none",
                   }}
                 >
                   Resume

@@ -34,7 +34,7 @@ export default function Skills() {
                 textAlign: "center",
                 marginTop: "20%",
               }}>
-              My favorite languages for software engineering
+              My favorite languages for Development
             </p>
           </div>
 
