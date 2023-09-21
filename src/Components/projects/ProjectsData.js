@@ -152,7 +152,7 @@ export const projectsData = [
         name: "tailwind",
       },
       {
-        url:"https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
+        url:"https://adwara-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
         name: "express"
       },
       {
