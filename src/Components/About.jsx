@@ -4,18 +4,19 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Avatar, Image, Text } from "@chakra-ui/react";
-import { Button } from "react-scroll";
+import { Image, Text } from "@chakra-ui/react";
 export default function About() {
   React.useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div id="about" className="about section">
+      <Text textAlign={'center'} fontSize={'20px'}>About Me</Text>
       <div className={style.about}>
           {/* <BookType /> */}
           <span>
           <Image
+            className="home-img"
             src="https://avatars.githubusercontent.com/u/68837552?v=4"
             alt="profile_img"
             // boxSize={{xs:'70px',sm:'100px',md:'250',lg:'350px'}}
