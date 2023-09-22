@@ -99,45 +99,45 @@ export const projectsData = [
     link: "https://skinkastore.netlify.app/",
     github: "https://github.com/karnking/SkinStore",
   },
-  {
-    project_img: "https://user-images.githubusercontent.com/68837552/258520908-0b355fa0-d26f-40f8-9998-c1c4d4f441cf.png",
-    project_img_dark: "https://user-images.githubusercontent.com/68837552/258520908-0b355fa0-d26f-40f8-9998-c1c4d4f441cf.png",
+  // {
+  //   project_img: "https://user-images.githubusercontent.com/68837552/258520908-0b355fa0-d26f-40f8-9998-c1c4d4f441cf.png",
+  //   project_img_dark: "https://user-images.githubusercontent.com/68837552/258520908-0b355fa0-d26f-40f8-9998-c1c4d4f441cf.png",
 
-    title: "Playo.co",
-    description:
-      "A one week project for cloning the playo.co website powered by node.js. Introducing Playo.co, the ultimate event booking app crafted with Node.js Seamlessly connecting event organizers and attendees, Playo.co offers an intuitive platform to discover, book, and manage a wide array of events. With real-time updates powered by Node.js and a responsive design courtesy of Tailwind CSS.",
-    tech_stack: [
-      {
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-        name: "react",
-      },
-      {
-        url: "https://cdn-icons-png.flaticon.com/512/732/732212.png",
-        name: "html",
-      },
-      {
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
-        name: "css",
-      },
-      {
-        url: "https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg",
-        name: "js",
-      },
-      {
-        url: "https://images.opencollective.com/chakra-ui-pro/61bd1dd/logo/256.png",
-        name: "tailwind",
-      },
-      {
-        url: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-        name: "github",
-      },
-    ],
-    link: "https://karnking.github.io/playo-project.github.io/",
-    github: "https://github.com/karnking/playo-project.github.io",
-  },
+  //   title: "Playo.co",
+  //   description:
+  //     "A one week project for cloning the playo.co website powered by node.js. Introducing Playo.co, the ultimate event booking app crafted with Node.js Seamlessly connecting event organizers and attendees, Playo.co offers an intuitive platform to discover, book, and manage a wide array of events. With real-time updates powered by Node.js and a responsive design courtesy of Tailwind CSS.",
+  //   tech_stack: [
+  //     {
+  //       url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  //       name: "react",
+  //     },
+  //     {
+  //       url: "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+  //       name: "html",
+  //     },
+  //     {
+  //       url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
+  //       name: "css",
+  //     },
+  //     {
+  //       url: "https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg",
+  //       name: "js",
+  //     },
+  //     {
+  //       url: "https://images.opencollective.com/chakra-ui-pro/61bd1dd/logo/256.png",
+  //       name: "tailwind",
+  //     },
+  //     {
+  //       url: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+  //       name: "github",
+  //     },
+  //   ],
+  //   link: "https://karnking.github.io/playo-project.github.io/",
+  //   github: "https://github.com/karnking/playo-project.github.io",
+  // },
   {
     project_img: "https://user-images.githubusercontent.com/68837552/260916291-1e1448ea-b678-4cfa-85c8-473fa517d914.png",
-    project_img_dark: "https://user-images.githubusercontent.com/68837552/260916291-1e1448ea-b678-4cfa-85c8-473fa517d914.png",
+    project_img_dark: "https://user-images.githubusercontent.com/68837552/269914781-f50b490f-6f4a-4bf1-b807-74a076f26060.png",
 
     title: "Adventour",
     description:
@@ -152,7 +152,7 @@ export const projectsData = [
         name: "tailwind",
       },
       {
-        url:"https://adwara-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
+        url:"https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
         name: "express"
       },
       {
