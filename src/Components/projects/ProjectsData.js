@@ -5,7 +5,7 @@ export const projectsData = [
 
     title: "Alcazar ",
     description:
-      "This project is built on the idea of Alcazar website, created by Team of 4 starting with Shubham Chaubey (Team Lead), Karan Kotai, Premjeet Yadav, and Kumod Kumar. The purpose of this project is to showcase our skills and knowledge in HTML, CSS, JavaScript, and Json-Server.",
+      "This project is built on the idea of Alcazar website, A website based on a figma design, offering a booking platform for hotels and its rooms. Created by Team of 4. The purpose of this project is to showcase our skills and knowledge in HTML, CSS, JavaScript, and Json-Server. Key Features: User Registration, Authentication, Hotel Browsing, Booking, and CRUD Operations.",
     tech_stack: [
       {
         url: "https://cdn-icons-png.flaticon.com/512/732/732212.png",
@@ -141,7 +141,7 @@ export const projectsData = [
 
     title: "Adventour",
     description:
-      "Adventour is a MERN stack Adventure booking and hotel reservation application. Offering a booking platform for hotel rooms and exploring details about various hotels in various locations. Along with many options for adventures available in area.",
+      "Adventour is a MERN stack Adventure booking and hotel reservation application. Offering a booking platform for hotel rooms and exploring details about various hotels in various locations. Along with many options for adventures available in area. This was a group project with a team of 4 people. This is a modern and user-friendly travel app built with React, designed to help users plan and organize their travel adventures with ease.",
     tech_stack: [
       {
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
