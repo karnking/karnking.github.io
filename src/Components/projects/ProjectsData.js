@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     project_img: "https://user-images.githubusercontent.com/68837552/251971952-59c5bd5d-08ec-426e-ab2b-d8033c4238be.jpg",
-    project_img_dark: "https://user-images.githubusercontent.com/68837552/251971906-121e5c3a-76b0-41a0-bbb2-e10bb60dd07f.jpg",
+    project_img_dark: "https://user-images.githubusercontent.com/68837552/273841973-3f14c78b-2154-436f-8b6b-c01fedf848a2.png",
 
     title: "Alcazar ",
     description:
