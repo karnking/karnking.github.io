@@ -32,8 +32,8 @@ export const projectsData = [
     github: "https://github.com/karnking/Travel-website",
   },
   {
-    project_img: "https://user-images.githubusercontent.com/68837552/258499417-a1bc0981-3d04-489d-893e-7f014ec14d37.png",
-    project_img_dark: "https://user-images.githubusercontent.com/68837552/258499105-22f90776-1bd8-4b22-947e-48796d97152d.png",
+    project_img_dark: "https://user-images.githubusercontent.com/68837552/273813508-812c36fa-e519-4fa2-a39c-0ac8be5a9d89.png",
+    project_img: "https://user-images.githubusercontent.com/68837552/258499105-22f90776-1bd8-4b22-947e-48796d97152d.png",
 
     title: "Cryptoshere",
     description:
