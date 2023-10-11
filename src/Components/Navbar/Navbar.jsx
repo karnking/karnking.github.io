@@ -41,7 +41,7 @@ export default function Navbar() {
               <Link
                 id="nav-link home"
                 className="nav-link home"
-                to={"Home"}
+                to={"home"}
                 smooth={true}
                 duration={500}
                 offset={-90}

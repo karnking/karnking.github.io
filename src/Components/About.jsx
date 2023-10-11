@@ -13,8 +13,8 @@ export default function About() {
     <div id="about" className="about section">
       <Text textAlign={'center'} fontSize={'20px'}>About Me</Text>
       <div className={style.about}>
-          {/* <BookType /> */}
-          <span>
+        {/* <BookType /> */}
+        <span>
           <Image
             className="home-img"
             src="https://avatars.githubusercontent.com/u/68837552?v=4"
@@ -24,12 +24,12 @@ export default function About() {
             w={'350px'}
             align={'center'}
             margin={'auto'}
-            // margin={{xs:'auto',md:'unset'}}
+          // margin={{xs:'auto',md:'unset'}}
           />
-          </span>
+        </span>
         <div className={style.name}>
           <h1 id="intro">
-            Hello <span id="user-detail-name"><Text>I'm Karan Kotai</Text></span>
+            <span id="user-detail-name"><Text>Hello I'm Karan Kotai</Text></span>
           </h1>
 
           <div className={style.flipBox}>
@@ -55,23 +55,23 @@ export default function About() {
             Looking forward to starting career in a fast growing startup driven by technology. I am committed to delivering excellence and contributing to the continued growth and success of innovative web applications.
           </p>
 
-          <div style={{ "display": "flex", flexWrap: "nowrap", justifyContent: "center", alignItems: "center", margin:'10px' }}>
-                <button
-                    className={style.ResumeBtn}
-                    id="resume-button-2"
-                    onClick={()=>{
-                      window.open(
-                        "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view?usp=sharing",
-                        "blank"
-                      );
-                    }}
-                  >
-                    <a href="./images/Karan-Kotai-Resume.pdf" download="Karan-Kotai-Resume" id="resume-link-2" className="nav-link resume" >
+          <div style={{ "display": "flex", flexWrap: "nowrap", justifyContent: "center", alignItems: "center", margin: '10px' }}>
+            <button
+              className={style.ResumeBtn}
+              id="resume-button-2"
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view?usp=sharing",
+                  "blank"
+                );
+              }}
+            >
+              <a href="./images/Karan-Kotai-Resume.pdf" download="Karan-Kotai-Resume" id="resume-link-2" className="nav-link resume" >
 
-                      Resume
+                Resume
 
-                    </a>
-                  </button>
+              </a>
+            </button>
             {/* </button> */}
             {/*  */}
             <a
