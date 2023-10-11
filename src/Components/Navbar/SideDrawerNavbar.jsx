@@ -20,7 +20,7 @@ import {
   // FiSettings,
 } from "react-icons/fi";
 import { GoProject } from "react-icons/go";
-import { MdContacts } from "react-icons/md";
+import { MdContacts, MdOutlineContactPage } from "react-icons/md";
 import { HiOutlineDownload } from "react-icons/hi";
 
 import { Link } from "react-scroll";
@@ -85,29 +85,37 @@ function SideDrawerNavbar() {
                       // key={link.name}
                       // icon={link.icon}
                       // onClose={onClose}
-                      
-                        
-                        // >
-                      <a
-                        className="nav-link resume"
-                        onClick={() => {
-                        window.open(
-                          "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view",
-                          "blank"
-                          );
-                        }}
-                        id="resume-button-1"
-                        href="./images/Karan-Kotai-Resume.pdf"
-                        download="Karan-Kotai-Resume"
-                        px={2}
-                        py={1}
-                        rounded={"md"}
-                        _hover={{
-                          textDecoration: "none",
-                        }}>
-                      Resume
-                    </a>
-                    // </NavItem>
+
+
+                      <Flex p="4"
+                        mx="4" align={'center'}>
+                        <Icon
+                          mr="4"
+                          fontSize="16"
+                          _groupHover={{
+                            color: "white",
+                          }}
+                          as={MdOutlineContactPage}
+                        />
+                        <a
+                          className="nav-link resume"
+                          onClick={() => {
+                            window.open(
+                              "https://drive.google.com/file/d/1pkkMgawxtbA3mYI61robfMhEI3gjEkv0/view",
+                              "blank"
+                            );
+                          }}
+                          id="resume-button-1"
+                          href="./images/Karan-Kotai-Resume.pdf"
+                          download="Karan-Kotai-Resume"
+                          py={1}
+                          rounded={"md"}
+                          _hover={{
+                            textDecoration: "none",
+                          }}>
+                          Resume
+                        </a>
+                      </Flex>
                     ) : (
                       <NavItem
                         key={link.name}

@@ -34,6 +34,8 @@
 @media (max-width: 720px) {
   .flex_box {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .main_heading {
     border: 0px solid blue;
