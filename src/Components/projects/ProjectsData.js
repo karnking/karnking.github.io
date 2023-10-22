@@ -174,5 +174,37 @@ export const projectsData = [
     ],
     link: "https://adventour-e3im-git-booking-monurajputrko.vercel.app/",
     github: "https://github.com/karnking/adventour.github.io",
-  }
+  },
+  {
+    project_img: "https://user-images.githubusercontent.com/68837552/276521570-2f2f0b99-7e7e-4b93-941d-9aedb09c0841.png",
+    project_img_dark: "https://user-images.githubusercontent.com/68837552/276520315-5178d85b-1642-42cd-bceb-e6d0665e4ee4.png",
+
+    title: "Discord-Clone",
+    description:
+      "About Full-stack project offering real-time communication platform with features like instant messaging, attachment sharing, message editing, 1:1 calls, member management, unique invite links, and a sleek UI. It uses Socket.io for real-time communication.",
+    tech_stack: [
+      {
+        url: "images/express.jpg",
+        name: "Nextjs"
+      },
+      {
+        url: "https://clerk.com/_next/image?url=%2Fimages%2Fclerk-logo.svg&w=96&q=75",
+        name: "Clerk"
+      },
+      {
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+        name: "react",
+      },
+      {
+        url: "https://images.opencollective.com/chakra-ui-pro/61bd1dd/logo/256.png",
+        name: "tailwind",
+      },
+      {
+        url: "https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg",
+        name: "js",
+      },
+    ],
+    link: "https://discord-lite.onrender.com/invite/93a9534d-1cb0-4471-bb3e-4954e5c3ca59",
+    github: "https://github.com/karnking/discord-clone",
+  },
 ];
