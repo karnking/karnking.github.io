@@ -49,7 +49,7 @@ const Contact = () => {
                     </div>
                     <div className="text" id="contact-email">
                       <h5 style={colorMode==='dark'?{color:'white'}:{color:'black'}}>Email</h5>
-                      <p style={colorMode==='dark'?{color:'white'}:{color:'black'}}>karankotai9183@gmail.com</p>
+                      <p style={colorMode==='dark'?{color:'white'}:{color:'black'}}>karankotai23@gmail.com</p>
                     </div>
                   </div>
                   <div className="contact-widget-item">

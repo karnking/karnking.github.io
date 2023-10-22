@@ -4,13 +4,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Image, Text } from "@chakra-ui/react";
+import { Image, Text, useColorMode } from "@chakra-ui/react";
 export default function About() {
+  const { colorMode } = useColorMode();
   React.useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div id="about" className="about section">
+    <div id="about" className={colorMode !== "light" ? "about section dark1" : "about section"}>
       <Text textAlign={'center'} fontSize={'20px'}>About Me</Text>
       <div className={style.about}>
         {/* <BookType /> */}
