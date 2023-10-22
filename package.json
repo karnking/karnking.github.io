@@ -21,6 +21,7 @@
     "file-saver": "^2.0.5",
     "fortawesome": "^0.0.1-security",
     "framer-motion": "^8.2.4",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.4.0",
@@ -59,6 +60,5 @@
   },
   "devDependencies": {
     "eslint": "^8.46.0"
-    
   }
 }

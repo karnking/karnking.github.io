@@ -24,7 +24,7 @@ export const projectsData = [
         name: "chakra",
       },
       {
-        url: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         name: "github",
       },
     ],
@@ -60,7 +60,7 @@ export const projectsData = [
         name: "chakra",
       },
       {
-        url: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         name: "github",
       },
     ],
@@ -92,7 +92,7 @@ export const projectsData = [
         name: "bootstrap",
       },
       {
-        url: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         name: "github",
       },
     ],
@@ -128,7 +128,7 @@ export const projectsData = [
   //       name: "tailwind",
   //     },
   //     {
-  //       url: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+  //       url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
   //       name: "github",
   //     },
   //   ],
@@ -168,7 +168,7 @@ export const projectsData = [
         name: "js",
       },
       {
-        url: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         name: "github",
       },
     ],
@@ -184,11 +184,11 @@ export const projectsData = [
       "About Full-stack project offering real-time communication platform with features like instant messaging, attachment sharing, message editing, 1:1 calls, member management, unique invite links, and a sleek UI. It uses Socket.io for real-time communication.",
     tech_stack: [
       {
-        url: "images/express.jpg",
+        url: "https://miro.medium.com/v2/resize:fit:650/1*Hva7hcsFWulFUPhrEWui1A.jpeg",
         name: "Nextjs"
       },
       {
-        url: "https://clerk.com/_next/image?url=%2Fimages%2Fclerk-logo.svg&w=96&q=75",
+        url: "https://mms.businesswire.com/media/20221130006097/en/1651823/22/logo-light-mode_%282%29.jpg",
         name: "Clerk"
       },
       {
@@ -202,6 +202,10 @@ export const projectsData = [
       {
         url: "https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg",
         name: "js",
+      },
+      {
+        url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        name: "github",
       },
     ],
     link: "https://discord-lite.onrender.com/invite/93a9534d-1cb0-4471-bb3e-4954e5c3ca59",
