@@ -184,11 +184,11 @@ export const projectsData = [
       "About Full-stack project offering real-time communication platform with features like instant messaging, attachment sharing, message editing, 1:1 calls, member management, unique invite links, and a sleek UI. It uses Socket.io for real-time communication.",
     tech_stack: [
       {
-        url: "https://miro.medium.com/v2/resize:fit:650/1*Hva7hcsFWulFUPhrEWui1A.jpeg",
+        url: "https://www.rlogical.com/wp-content/uploads/2023/03/Rlogical-Blog-Images-thumbnail.webp",
         name: "Nextjs"
       },
       {
-        url: "https://mms.businesswire.com/media/20221130006097/en/1651823/22/logo-light-mode_%282%29.jpg",
+        url: "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/a1iakwzbac96qzymzwtq",
         name: "Clerk"
       },
       {
