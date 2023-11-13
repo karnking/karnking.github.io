@@ -91,7 +91,7 @@ const Contact = () => {
                       style={colorMode==='dark'?{color:'white'}:{color:'black'}}
                       formTarget="_blank" onClick={reset}>
                       {" "}
-                      Send Message 
+                      Send a DM
                     </button>
                   </form>
                 </div>
