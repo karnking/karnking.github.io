@@ -163,7 +163,7 @@ export const projectsData = [{
         name: "github",
       },
     ],
-    link: "https://adventour-e3im-git-booking-monurajputrko.vercel.app/",
+    link: "https://adventour-app.vercel.app/",
     github: "https://github.com/karnking/adventour.github.io",
   },
   {
