@@ -197,7 +197,7 @@ export const projectsData = [{
         name: "github",
       },
     ],
-    link: "https://discord-lite.onrender.com/invite/93a9534d-1cb0-4471-bb3e-4954e5c3ca59",
+    link: "https://discord-clone-ro4iottyt-karnking.vercel.app/invite/d3f65fc9-acdb-4c44-848e-4a378f3c6bc6",
     github: "https://github.com/karnking/discord-clone",
   },
   {
