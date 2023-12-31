@@ -133,7 +133,7 @@ export const projectsData = [{
     project_img_dark: "https://user-images.githubusercontent.com/68837552/269914781-f50b490f-6f4a-4bf1-b807-74a076f26060.png",
 
     title: "Adventour",
-    description: "Adventour is a MERN stack Adventure booking and hotel reservation application. Offering a booking platform for hotel rooms and exploring details about various hotels in various locations. Along with many options for adventures available in area. This was a group project with a team of 4 people. This is a modern and user-friendly travel app built with React, designed to help users plan and organize their travel adventures with ease.",
+    description: "Adventour is a MERN stack Adventure booking and hotel reservation application. Offering a booking platform for hotel rooms and exploring details about various hotels in various locations. Along with many options for adventures available in area. This was a group project with a team of 4 people.This is a modern and user-friendly travel app built with React, designed to help users plan and organize their travel adventures with ease.",
     tech_stack: [{
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
         name: "react",
@@ -171,7 +171,7 @@ export const projectsData = [{
     project_img_dark: "https://user-images.githubusercontent.com/68837552/276520315-5178d85b-1642-42cd-bceb-e6d0665e4ee4.png",
 
     title: "Discord-Clone",
-    description: "About Full-stack project offering real-time communication platform with features like instant messaging, attachment sharing, message editing, 1:1 calls, member management, unique invite links, and a sleek UI. It uses Socket.io for real-time communication.",
+    description: "Full-stack project offering real-time communication platform with features like instant messaging, attachment sharing, message editing, 1:1 calls, member management, unique invite links, and a sleek UI. It uses Socket.io for real-time communication.",
     tech_stack: [{
         url: "https://www.rlogical.com/wp-content/uploads/2023/03/Rlogical-Blog-Images-thumbnail.webp",
         name: "Nextjs"
