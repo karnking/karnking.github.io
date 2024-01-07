@@ -76,7 +76,7 @@ export default function GithubStats() {
         <h1 className={style.main_heading}>My Github Calender</h1>
 
         <div data-aos="fade-up" className={style.Calendar}>
-          <GitHubCalendar year='2023' username="karnking" />
+          <GitHubCalendar year='last' username="karnking" />
         </div>
       </div>
       <div className={style.outer_box}>

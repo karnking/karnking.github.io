@@ -78,11 +78,12 @@ const Contact = () => {
                   <form
                     action="https://getform.io/f/35fb6db6-8957-4e89-a32d-572d1bc07ec5"
                     method="POST">
-                    <input type="text" name="name"  placeholder="Name" style={colorMode==='dark'?{color:'white'}:{color:'black'}}/>
-                    <input type="email" name="email" placeholder="Email" style={colorMode==='dark'?{color:'white'}:{color:'black'}} />
+                    <input type="text" name="name"  placeholder="Name" required style={colorMode==='dark'?{color:'white'}:{color:'black'}}/>
+                    <input type="email" name="email" placeholder="Email" required style={colorMode==='dark'?{color:'white'}:{color:'black'}} />
                     <textarea
                       placeholder="Message"
                       type="text"
+                      required
                       style={colorMode==='dark'?{color:'white'}:{color:'black'}}
                       name="message"></textarea>
                     <button
